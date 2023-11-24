@@ -1,0 +1,14 @@
+<div class="modal rounded-lg">
+  <div class="modal-header">
+    Modal heading
+    <span class="modal-close" (click)="close()">✕</span>
+  </div>
+  <div class="modal-content">
+    hello
+    <!-- <ng-content></ng-content> -->
+  </div>
+  <div class="modal-footer">
+    <button (click)="submit()">Confirm</button>
+  </div>
+</div>
+<div class="modal-backdrop" (click)="close()"></div>
